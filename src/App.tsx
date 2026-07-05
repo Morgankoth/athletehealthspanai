@@ -656,7 +656,7 @@ export default function App() {
                 return (
                   <div>
                     <div style={{ display:"flex", justifyContent:"space-between", marginBottom:8 }}>
-                      <Label color={C.faint} size={9}>Resting HR · 7d avg {VITALS.rhr7dAvg || VITALS.rhr} bpm · 30d avg {VITALS.rhr} bpm</Label>
+                      <Label color={C.faint} size={9}>Resting HR · 7d avg {VITALS.hrv7dAvg || VITALS.rhr} bpm · 30d avg {VITALS.rhr} bpm</Label>
                     </div>
                     <div style={{ height:90, marginBottom:14 }}>
                       <ResponsiveContainer width="100%" height="100%">
